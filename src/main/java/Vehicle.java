@@ -1,11 +1,11 @@
 public class Vehicle {
-    private int vehicleId;
+    private long vehicleId;
     private String makeModel;
     private String color;
     private int odometerReading;
-    private Float price;
+    private float price;
 
-    public Vehicle(int vehicleId, String makeModel, String color, int odometerReading, Float price) {
+    public Vehicle(long vehicleId, String makeModel, String color, int odometerReading, float price) {
         this.vehicleId = vehicleId;
         this.makeModel = makeModel;
         this.color = color;
@@ -13,11 +13,11 @@ public class Vehicle {
         this.price = price;
     }
 
-    public int getVehicleId() {
+    public long getVehicleId() {
         return vehicleId;
     }
 
-    public void setVehicleId(int vehicleId) {
+    public void setVehicleId(long vehicleId) {
         this.vehicleId = vehicleId;
     }
 
@@ -45,11 +45,11 @@ public class Vehicle {
         this.odometerReading = odometerReading;
     }
 
-    public Float getPrice() {
+    public float getPrice() {
         return price;
     }
 
-    public void setPrice(Float price) {
+    public void setPrice(float price) {
         this.price = price;
     }
 }
